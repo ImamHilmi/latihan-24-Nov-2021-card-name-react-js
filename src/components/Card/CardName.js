@@ -1,5 +1,5 @@
-import images from'./../assets/images/pic1.jpg';
-import './../css/styles.css';
+import images from "../../assets/images/pic1.jpg"
+import "./CardName.css"
 
 function cardName() {
 
