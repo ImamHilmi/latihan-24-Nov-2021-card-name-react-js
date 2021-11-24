@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  // default function from react below here
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +21,8 @@ function App() {
         </a>
       </header>
     </div>
+
+
   );
 }
 

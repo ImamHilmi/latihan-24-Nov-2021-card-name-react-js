@@ -1,0 +1,114 @@
+/* Nav CSS */
+.profile__sidebar img {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .row__cardname {
+    box-sizing: border-box;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .name__card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #366691;
+    color: #ccc;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .profile__contact {
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .profile__contact i {
+    margin-right: 10px;
+  }
+  
+  .social__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    width: 125px;
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  
+  .social__link {
+    color : #ccc;
+    opacity: 0.5;
+    font-size: 1.5rem;
+  }
+  
+  .social__link:hover {
+    color : #555;
+    opacity: 1;
+  }
+  
+  .profile__name {
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+  
+  .profile__name::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 2em;
+    background: #ccc;
+    margin: 0 auto;
+    margin-top: 0.65em;
+    margin-bottom: 0.5em;
+  }
+  
+  .profile__position {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+  }
+  
+  .profile__body {
+    font-weight: 300;
+    opacity: 80%;
+    margin-bottom: 0;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .name__card {
+      flex-direction: row;
+    }
+  
+    .profile__main {
+      text-align: justify;
+      margin-left: 2em;
+    }
+  
+    .profile__name::after {
+      margin-left: 0;
+    }
+  }
+  
+  body {
+    margin-left: 100px;
+  }
